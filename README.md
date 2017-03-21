@@ -9,7 +9,7 @@
 
 ## 界面
 
-![Alt text](./1490067053201.png)
+![Alt text](http://bluezhan.me/img/notesAPP-vue2-vuex2.png)
 
 ## Build Setup
 
