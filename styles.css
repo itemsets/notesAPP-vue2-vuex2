@@ -1,0 +1,132 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+html,
+#app {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    height: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+#toolbar {
+    float: left;
+    width: 80px;
+    height: 100%;
+    background-color: #30414D;
+    color: #767676;
+    padding: 35px 25px 25px 25px;
+}
+
+#notes-list {
+    float: left;
+    width: 300px;
+    height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+#list-header {
+    padding: 5px 25px 25px 25px;
+}
+
+#list-header h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 22px;
+    padding-bottom: 8px;
+}
+
+#notes-list .container {
+    height: calc(100% - 137px);
+    max-height: calc(100% - 137px);
+    overflow: auto;
+    width: 100%;
+    padding: 0;
+}
+
+#notes-list .container .list-group-item {
+    border: 0;
+    border-radius: 0;
+}
+
+.list-group-item-heading {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+#note-editor {
+    height: 100%;
+    margin-left: 380px;
+}
+
+#note-editor .input-title {
+    border: 0;
+    border-radius: 0;
+}
+
+#note-editor textarea {
+    height: calc(100% - 34px);
+    max-height: calc(100% - 34px);
+    border: 0;
+    border-radius: 0;
+    width: 50%;
+    float: left;
+    border: none;
+    border-right: 1px solid #ccc;
+    resize: none;
+    outline: none;
+    background-color: #f6f6f6;
+    font-size: 14px;
+    font-family: 'Monaco', courier, monospace;
+    padding: 20px;
+}
+
+#note-editor .notes-html {
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 20px;
+    width: 50%;
+    float: left;
+    height: calc(100% - 34px);
+    max-height: calc(100% - 34px);
+    overflow-y: scroll;
+}
+
+#toolbar i {
+    font-size: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: opacity 0.5s ease;
+}
+
+#toolbar i:hover {
+    opacity: 1;
+}
+
+.starred {
+    color: #F7AE4F;
+}
+
+.logoicon {
+    display: inline-block;
+    width: 56px;
+    height: 56px;
+    margin-left: -13px;
+    overflow: hidden;
+    border-radius: 100px;
+}
+
+.logoicon img {
+    width: 100%;
+}
