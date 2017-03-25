@@ -1,4 +1,4 @@
-![notesAPP-vue2-vuex2](http://bluezhan.me/img/notesAPP-vue2-vuex2_1.png)
+![notesAPP-vue2-vuex2](http://bluezhan.me/img/notesAPP-vue2-vuex2_2.png)
 
 # notesAPP-vue2-vuex2(构建一个笔记应用)
 
